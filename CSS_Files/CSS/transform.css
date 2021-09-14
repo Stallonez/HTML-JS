@@ -1,0 +1,41 @@
+body{
+    background: rgb(197, 174, 144);
+}
+
+h1{
+    font-size: 40px;
+    margin: 50px;
+}
+h2{
+    font-size: 30px;
+    margin: 30px;
+}
+.content__block{
+    margin: 0px 0px 50px 0px;
+}
+.content__translate {
+    background: #794f45;
+    width: 200px;
+    height: 200px;
+    color: rgb(211, 108, 35);
+    /* transform: translate(50px, 50px); */
+    /* то же самое сместить объект можно нижними командами
+    position: relative;
+    top:50px;
+    left:50px; 
+    Разница в центрировании объекта, например тогда нужно
+    position: relative;
+    left: 50%;
+    margin: 0px 0px 0px -100px;
+    но для применения такого способа нужно знать ширину объекта, а если я не знаю ширины объекта? Или 
+    она динамичная, она может меняться, а как раз с помощью transform со значением translate мы можем
+    это сделать*/
+    /* transform: translate(-50%, 0px);
+    position: relative;
+    left: 50%; */
+}
+.content__translate:hover{
+    transform: translate(20px, 20px);
+    transition: 500ms;
+    box-shadow: 0 0 20px rgb(127, 127, 236);
+}

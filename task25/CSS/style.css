@@ -1,0 +1,130 @@
+.text-center {
+    text-align: center;
+}
+
+.div-5.active {
+    width: 75px;
+    height: 75px;
+    float: center;
+    margin: 25px;
+    border: 2px solid #333;
+}
+.out-3 {
+    width: 150px;
+    height: 75px;
+    float: center;
+    margin: 25px;
+    border: 2px solid #333;
+    color: #072444;
+}
+
+hr {
+    clear:both;
+}
+
+.h1 {
+    color: red;
+    background-color: darkgrey;
+}
+
+.h2 {
+    background-color: darkkhaki;
+    color: blue;
+}
+.link {
+    color: darkslateblue;
+    /* background-color: deeppink; */
+}
+.link.active {
+    font-weight: bold;
+}
+
+.container-1.button {
+    font-size: 20px;
+    font-style: oblique;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: yellow;
+    background-color: black;
+    margin: 10;
+    padding: 10px;
+}
+.button + .button {
+    margin-left: 50px;
+    margin-bottom: 10px;
+}
+
+.container {
+    display: flex;
+}
+
+#a-1 {
+    width: 75px;
+    height: 75px;
+}
+
+div {
+    margin-bottom: 30px;
+}
+.five {
+    border: 3px solid yellowgreen;
+}
+
+.out-7 {
+    height: 60px;
+}
+.two {
+    background: navy;
+    /* background-color: oldlace; */
+}
+
+.three {
+    background: orange;
+}
+.four {
+    border: 2px solid red;
+}
+.block-1 {
+    width: 250px;
+    height: 250px;
+    border: 3px solid red;
+    margin: 20px;
+    overflow: scroll;
+}
+.hide {
+  display: none;
+}
+.orange{
+    color: white;
+    background: orange;
+    padding: 5px;
+}
+.red{
+    color: white;
+    background: red;
+    padding: 5px;
+}
+.button-1{
+    width: 100px;
+    height: 35px;
+    background-color: rgba(250, 63, 63, 0.952);
+    border: 1px solid red;
+    border-radius: 20px;
+    color: white;
+    
+    
+}
+/* .button-1:hover{
+    width: 140px;
+    height: 55px;
+} */
+
+.modal-1{
+    width: 300px;
+    height: 500px;
+    background: rgba(250, 63, 63, 0.952);
+    margin: 0 auto;
+    display: none;
+}
+.open-1{
+    display: block;
+}

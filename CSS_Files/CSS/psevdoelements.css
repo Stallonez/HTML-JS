@@ -1,0 +1,45 @@
+body{
+    padding: 30px;  
+}
+
+.text{
+    font-size: 24px;
+    line-height: 33px;
+    margin-bottom: 30px;
+}
+.text::first-line{
+    color: green;
+    
+}
+.text::first-letter{
+    color: gold;
+    font-size: 36px;
+
+}
+
+.list {
+
+}
+
+.list li{
+    font-size: 24px;
+    margin-bottom: 20px;
+    /* list-style: none; */
+    display: block;
+}
+.list li::before{
+    content: '';
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: red;
+    display: inline-block;
+    margin-right: 10px;
+}
+/* .list li::after{
+    content: '';
+} */
+
+.list li:hover::before{
+    background: yellow;
+}
